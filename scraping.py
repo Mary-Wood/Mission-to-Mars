@@ -118,7 +118,7 @@ def hemisphere_image_url(browser):
         item_soup = soup(html, 'html.parser')
         Temp = {}
         hemisphere_image_url = []
-    
+
         for item in item_soup.find_all('h3'):
             title = item.text
             
